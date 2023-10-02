@@ -25,7 +25,8 @@ docker run -dt -p 8080:8080 spring
 
 ## Deploy Application Using Docker Compose 
 
-```docker network create springappnetwork
+```
+docker network create springappnetwork
 docker volume create --name=mongodb
 docker-compose 
 docker-compose up -d 
